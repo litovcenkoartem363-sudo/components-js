@@ -7,7 +7,7 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    router.replace('/custom-setup');
+    router.replace('/simple');
   }, [router]);
 
   return (
